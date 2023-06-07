@@ -30,5 +30,15 @@ public class CILabTest {
 
     }
 
+    @Test
+    public void detectCapitalUseTest_EmptyString_ReturnsFalse() {
+        myString.setString("");
+
+        boolean actual = myString.detectCapitalUse();
+
+        assertFalse(actual);
+
+    }
+
 
 }

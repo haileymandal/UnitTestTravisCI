@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef966700-d7c6-440f-9a53-768634d3ce67" name="Changes" comment="added Junit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CILabInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CILabInterface.java" afterDir="false" />
+    <list default="true" id="ef966700-d7c6-440f-9a53-768634d3ce67" name="Changes" comment="added first passing test case and imported assertion.*">
       <change beforePath="$PROJECT_DIR$/src/test/java/CILabTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CILabTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +37,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CILabTest.detectCapitalUse_NewObject_ReturnsFalse">
+  <component name="RunManager" selected="JUnit.CILabTest.detectCapitalUseTest_EmptyString_ReturnsFalse">
     <configuration name="CILabTest.detectCapitalUseTest_AllCaps_ReturnsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTestTravisCI" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,9 +70,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CILabTest.detectCapitalUseTest_EmptyString_ReturnsFalse" />
         <item itemvalue="JUnit.CILabTest.detectCapitalUse_NewObject_ReturnsFalse" />
         <item itemvalue="JUnit.CILabTest.detectCapitalUseTest_AllCaps_ReturnsTrue" />
-        <item itemvalue="JUnit.CILabTest.detectCapitalUseTest_EmptyString_ReturnsFalse" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686164181851</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added spaces for visual">
+      <created>1686165710756</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686165710756</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added first passing test case and imported assertion.*">
+      <created>1686165765595</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686165765595</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +138,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="added CILab.java and CILabTest.java" />
     <MESSAGE value="added Junit" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Junit" />
+    <MESSAGE value="added spaces for visual" />
+    <MESSAGE value="added first passing test case and imported assertion.*" />
+    <option name="LAST_COMMIT_MESSAGE" value="added first passing test case and imported assertion.*" />
   </component>
 </project>
