@@ -1,19 +1,17 @@
 public interface CILabInterface {
-
     /**
      * Returns the current string. If the string is null, it should return null.
      *
      * @return Current string
      */
     String getString();
-
     /**
      * Sets the value of the current string.
      *
      * @param string The value to be set
      */
+    
     void setString(String string);
-
     /**
      *  We define the usage of capitals in a word to be right when one of the following cases holds:
      *  All letters in this word are capitals, like "USA".
