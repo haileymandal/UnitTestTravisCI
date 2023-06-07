@@ -13,7 +13,19 @@ public class CILab implements CILabInterface {
 
     @Override
     public boolean detectCapitalUse() {
-        return false;
+        if(myString == null)
+            return false;
+
+        String result = myString.toUpperCase();
+
+        if(result.equals(""))
+            return false;
+
+        if(result.equals(myString)){
+            return true;
+        } else {
+            return false;
+        }
     }
 
 }
