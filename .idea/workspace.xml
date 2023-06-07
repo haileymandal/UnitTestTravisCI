@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef966700-d7c6-440f-9a53-768634d3ce67" name="Changes" comment="initial commit">
+    <list default="true" id="ef966700-d7c6-440f-9a53-768634d3ce67" name="Changes" comment="added Junit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CILabInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CILabInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CILabTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CILabTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,45 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.CILabTest.detectCapitalUse_NewObject_ReturnsFalse">
+    <configuration name="CILabTest.detectCapitalUseTest_AllCaps_ReturnsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTestTravisCI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CILabTest" />
+      <option name="METHOD_NAME" value="detectCapitalUseTest_AllCaps_ReturnsTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CILabTest.detectCapitalUseTest_EmptyString_ReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTestTravisCI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CILabTest" />
+      <option name="METHOD_NAME" value="detectCapitalUseTest_EmptyString_ReturnsFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CILabTest.detectCapitalUse_NewObject_ReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTestTravisCI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CILabTest" />
+      <option name="METHOD_NAME" value="detectCapitalUse_NewObject_ReturnsFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CILabTest.detectCapitalUse_NewObject_ReturnsFalse" />
+        <item itemvalue="JUnit.CILabTest.detectCapitalUseTest_AllCaps_ReturnsTrue" />
+        <item itemvalue="JUnit.CILabTest.detectCapitalUseTest_EmptyString_ReturnsFalse" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686163829322</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added CILab.java and CILabTest.java">
+      <created>1686164147730</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686164147730</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added Junit">
+      <created>1686164181851</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686164181851</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,6 +124,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="added CILab.java and CILabTest.java" />
+    <MESSAGE value="added Junit" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Junit" />
   </component>
 </project>
