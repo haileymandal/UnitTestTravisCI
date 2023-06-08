@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef966700-d7c6-440f-9a53-768634d3ce67" name="Changes" comment="final clean up of notes and spaces">
+    <list default="true" id="ef966700-d7c6-440f-9a53-768634d3ce67" name="Changes" comment="added travis.yml file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -226,7 +226,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686191779824</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added surefire and jacoco plugins">
+      <created>1686194078707</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1686194078707</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added travis.yml file">
+      <created>1686194217706</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1686194217706</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +272,8 @@
     <MESSAGE value="added ninth failing test case" />
     <MESSAGE value="added implementation for ninth test case, now passing and previous tests are passing" />
     <MESSAGE value="final clean up of notes and spaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="final clean up of notes and spaces" />
+    <MESSAGE value="added surefire and jacoco plugins" />
+    <MESSAGE value="added travis.yml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added travis.yml file" />
   </component>
 </project>
