@@ -88,5 +88,16 @@ public class CILabTest {
 
     }
 
+    //seventh test, testing lower and uppercase letters
+    @Test
+    public void detectCapitalUseTest_LowerAndUppercase_ReturnsTrue() {
+        myString.setString("Testing");
+
+        boolean actual = myString.detectCapitalUse();
+
+        assertTrue(actual);
+
+    }
+
 
 }

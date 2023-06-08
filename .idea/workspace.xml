@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef966700-d7c6-440f-9a53-768634d3ce67" name="Changes" comment="added fifth passing test case">
+    <list default="true" id="ef966700-d7c6-440f-9a53-768634d3ce67" name="Changes" comment="added sixth passing test case">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CILabTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CILabTest.java" afterDir="false" />
     </list>
@@ -38,7 +38,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CILabTest.setString_ReturnsUpdatedString">
+  <component name="RunManager" selected="JUnit.CILabTest">
     <configuration name="CILabTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTestTravisCI" />
       <option name="PACKAGE_NAME" value="" />
@@ -58,11 +58,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CILabTest.detectCapitalUse_NewObject_ReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CILabTest.detectCapitalUseTest_LowerAndUppercase_ReturnsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTestTravisCI" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CILabTest" />
-      <option name="METHOD_NAME" value="detectCapitalUse_NewObject_ReturnsFalse" />
+      <option name="METHOD_NAME" value="detectCapitalUseTest_LowerAndUppercase_ReturnsTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CILabTest" />
+        <item itemvalue="JUnit.CILabTest.detectCapitalUseTest_LowerAndUppercase_ReturnsTrue" />
         <item itemvalue="JUnit.CILabTest.setString_ReturnsUpdatedString" />
         <item itemvalue="JUnit.CILabTest.getString_SameString_ReturnsTrue" />
         <item itemvalue="JUnit.CILabTest.detectCapitalUseTest_AllLower_ReturnsFalse" />
-        <item itemvalue="JUnit.CILabTest" />
-        <item itemvalue="JUnit.CILabTest.detectCapitalUse_NewObject_ReturnsFalse" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686188240717</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added sixth passing test case">
+      <created>1686189497932</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686189497932</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +209,7 @@
     <MESSAGE value="added implementation for third test case, now passing and previous tests are passing" />
     <MESSAGE value="added fourth passing test case" />
     <MESSAGE value="added fifth passing test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fifth passing test case" />
+    <MESSAGE value="added sixth passing test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sixth passing test case" />
   </component>
 </project>
