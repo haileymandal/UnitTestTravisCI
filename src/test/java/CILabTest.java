@@ -90,7 +90,6 @@ public class CILabTest {
         boolean actual = myString.detectCapitalUse();
 
         assertTrue(actual);
-
     }
 
     //eighth test, testing lowercase letter with uppercase after
@@ -101,8 +100,18 @@ public class CILabTest {
         boolean actual = myString.detectCapitalUse();
 
         assertFalse(actual);
-
     }
+
+    //ninth test, testing lowercase letter with uppercase after
+    @Test
+    public void detectCapitalUseTest_CapitalWord_ReturnsTrue() {
+        myString.setString("hello World");
+
+        boolean actual = myString.detectCapitalUse();
+
+        assertTrue(actual);
+    }
+
 
 
 }
