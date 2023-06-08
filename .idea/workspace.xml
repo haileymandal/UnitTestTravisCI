@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef966700-d7c6-440f-9a53-768634d3ce67" name="Changes" comment="updated jacoco version to 0.8.10">
+    <list default="true" id="ef966700-d7c6-440f-9a53-768634d3ce67" name="Changes" comment="renamed travis.yml to .travis.yml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +247,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686194781350</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="renamed travis.yml to .travis.yml">
+      <created>1686195427924</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1686195427924</updated>
+    </task>
+    <task id="LOCAL-00022" summary="renamed travis.yml to .travis.yml">
+      <created>1686195454750</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1686195454750</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,6 +296,7 @@
     <MESSAGE value="added surefire and jacoco plugins" />
     <MESSAGE value="added travis.yml file" />
     <MESSAGE value="updated jacoco version to 0.8.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated jacoco version to 0.8.10" />
+    <MESSAGE value="renamed travis.yml to .travis.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed travis.yml to .travis.yml" />
   </component>
 </project>
