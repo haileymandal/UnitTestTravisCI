@@ -20,7 +20,7 @@ public class CILabTest {
         myString = null;
     }
 
-    //first test
+    //first test, testing null string
     @Test
     public void detectCapitalUse_NewObject_ReturnsFalse() {
         //start with the action
@@ -31,7 +31,7 @@ public class CILabTest {
 
     }
 
-    //second test
+    //second test, testing empty string
     @Test
     public void detectCapitalUseTest_EmptyString_ReturnsFalse() {
         myString.setString("");
@@ -42,7 +42,7 @@ public class CILabTest {
 
     }
 
-    //third test
+    //third test, testing uppercase letters
     @Test
     public void detectCapitalUseTest_AllCaps_ReturnsTrue() {
         myString.setString("A");
@@ -53,7 +53,7 @@ public class CILabTest {
 
     }
 
-    //fourth test
+    //fourth test, testing lowercase letters
     @Test
     public void detectCapitalUseTest_AllLower_ReturnsFalse() {
         myString.setString("a");
@@ -64,13 +64,25 @@ public class CILabTest {
 
     }
 
-    //fifth test
+    //fifth test, testing getString method
     @Test
     public void getString_SameString_ReturnsTrue() {
         myString.setString("Hello!");
 
         String expected = "Hello!";
         String actual = myString.getString();
+
+        assertEquals(expected, actual);
+
+    }
+
+    //sixth test, testing setString method
+    @Test
+    public void setString_ReturnsUpdatedString(){
+        String actual = "Sunny Days";
+        myString.setString(actual);
+
+        String expected = myString.getString();
 
         assertEquals(expected, actual);
 
