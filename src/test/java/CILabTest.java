@@ -64,5 +64,17 @@ public class CILabTest {
 
     }
 
+    //fifth test
+    @Test
+    public void getString_SameString_ReturnsTrue() {
+        myString.setString("Hello!");
+
+        String expected = "Hello!";
+        String actual = myString.getString();
+
+        assertEquals(expected, actual);
+
+    }
+
 
 }
