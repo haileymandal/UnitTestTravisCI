@@ -16,17 +16,15 @@ public class CILab implements CILabInterface {
         if(myString == null)
             return false;
 
-        String result = myString.toUpperCase();
-
-        if(result.equals(""))
+        if(myString.equals(""))
             return false;
 
-        if(Character.isUpperCase(myString.charAt(0))){
-            return true;
-        } else {
-            return false;
+        for(String word : myString.split(" ")){
+            if(Character.isUpperCase(word.charAt(0))){
+                return true;
+            }
         }
-
+        return false;
     }
 
 }

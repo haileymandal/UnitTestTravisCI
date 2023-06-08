@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef966700-d7c6-440f-9a53-768634d3ce67" name="Changes" comment="added eighth passing test case">
+    <list default="true" id="ef966700-d7c6-440f-9a53-768634d3ce67" name="Changes" comment="added ninth failing test case">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CILabTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CILabTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CILab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CILab.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CILabTest.detectCapitalUseTest_CapitalWord_ReturnsTrue">
+  <component name="RunManager" selected="JUnit.CILabTest">
     <configuration name="CILabTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTestTravisCI" />
       <option name="PACKAGE_NAME" value="" />
@@ -90,9 +90,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CILabTest" />
         <item itemvalue="JUnit.CILabTest.detectCapitalUseTest_CapitalWord_ReturnsTrue" />
         <item itemvalue="JUnit.CILabTest.detectCapitalUseTest_LowerAndUppercase_ReturnsFalse" />
-        <item itemvalue="JUnit.CILabTest" />
         <item itemvalue="JUnit.CILabTest.detectCapitalUseTest_LowerAndUppercase_ReturnsTrue" />
         <item itemvalue="JUnit.CILabTest.setString_ReturnsUpdatedString" />
       </list>
@@ -205,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686191013585</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added ninth failing test case">
+      <created>1686191224110</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686191224110</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +241,7 @@
     <MESSAGE value="added seventh failing test case" />
     <MESSAGE value="added implementation for seventh test case, now passing and previous tests are passing" />
     <MESSAGE value="added eighth passing test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="added eighth passing test case" />
+    <MESSAGE value="added ninth failing test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ninth failing test case" />
   </component>
 </project>
