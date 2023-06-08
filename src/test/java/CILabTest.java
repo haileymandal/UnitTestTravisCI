@@ -82,14 +82,25 @@ public class CILabTest {
         assertEquals(expected, actual);
     }
 
-    //seventh test, testing capital letter with lower case letters
+    //seventh test, testing capital letter with lowercase after
     @Test
-    public void detectCapitalUseTest_LowerAndUppercase_ReturnsTrue() {
+    public void detectCapitalUseTest_CapitalWithLowercase_ReturnsTrue() {
         myString.setString("Testing");
 
         boolean actual = myString.detectCapitalUse();
 
         assertTrue(actual);
+
+    }
+
+    //eighth test, testing lowercase letter with uppercase after
+    @Test
+    public void detectCapitalUseTest_LowerAndUppercase_ReturnsFalse() {
+        myString.setString("tesTing");
+
+        boolean actual = myString.detectCapitalUse();
+
+        assertFalse(actual);
 
     }
 

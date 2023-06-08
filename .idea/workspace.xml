@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef966700-d7c6-440f-9a53-768634d3ce67" name="Changes" comment="added seventh failing test case">
+    <list default="true" id="ef966700-d7c6-440f-9a53-768634d3ce67" name="Changes" comment="added implementation for seventh test case, now passing and previous tests are passing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CILab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CILab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CILabTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CILabTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +38,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CILabTest">
+  <component name="RunManager" selected="JUnit.CILabTest.detectCapitalUseTest_LowerAndUppercase_ReturnsFalse">
     <configuration name="CILabTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTestTravisCI" />
       <option name="PACKAGE_NAME" value="" />
@@ -49,11 +48,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CILabTest.detectCapitalUseTest_AllLower_ReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CILabTest.detectCapitalUseTest_LowerAndUppercase_ReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTestTravisCI" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CILabTest" />
-      <option name="METHOD_NAME" value="detectCapitalUseTest_AllLower_ReturnsFalse" />
+      <option name="METHOD_NAME" value="detectCapitalUseTest_LowerAndUppercase_ReturnsFalse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CILabTest.detectCapitalUseTest_LowerAndUppercase_ReturnsFalse" />
         <item itemvalue="JUnit.CILabTest" />
         <item itemvalue="JUnit.CILabTest.detectCapitalUseTest_LowerAndUppercase_ReturnsTrue" />
         <item itemvalue="JUnit.CILabTest.setString_ReturnsUpdatedString" />
         <item itemvalue="JUnit.CILabTest.getString_SameString_ReturnsTrue" />
-        <item itemvalue="JUnit.CILabTest.detectCapitalUseTest_AllLower_ReturnsFalse" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686190166707</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added implementation for seventh test case, now passing and previous tests are passing">
+      <created>1686190890137</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686190890137</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +225,7 @@
     <MESSAGE value="added fifth passing test case" />
     <MESSAGE value="added sixth passing test case" />
     <MESSAGE value="added seventh failing test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="added seventh failing test case" />
+    <MESSAGE value="added implementation for seventh test case, now passing and previous tests are passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="added implementation for seventh test case, now passing and previous tests are passing" />
   </component>
 </project>
