@@ -21,11 +21,12 @@ public class CILab implements CILabInterface {
         if(result.equals(""))
             return false;
 
-        if(result.equals(myString)){
+        if(Character.isUpperCase(myString.charAt(0))){
             return true;
         } else {
             return false;
         }
+
     }
 
 }

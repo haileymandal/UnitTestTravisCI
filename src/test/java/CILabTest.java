@@ -28,7 +28,6 @@ public class CILabTest {
 
         //the test
         assertFalse(actual);
-
     }
 
     //second test, testing empty string
@@ -39,7 +38,6 @@ public class CILabTest {
         boolean actual = myString.detectCapitalUse();
 
         assertFalse(actual);
-
     }
 
     //third test, testing uppercase letters
@@ -50,7 +48,6 @@ public class CILabTest {
         boolean actual = myString.detectCapitalUse();
 
         assertTrue(actual);
-
     }
 
     //fourth test, testing lowercase letters
@@ -61,7 +58,6 @@ public class CILabTest {
         boolean actual = myString.detectCapitalUse();
 
         assertFalse(actual);
-
     }
 
     //fifth test, testing getString method
@@ -73,7 +69,6 @@ public class CILabTest {
         String actual = myString.getString();
 
         assertEquals(expected, actual);
-
     }
 
     //sixth test, testing setString method
@@ -85,10 +80,9 @@ public class CILabTest {
         String expected = myString.getString();
 
         assertEquals(expected, actual);
-
     }
 
-    //seventh test, testing lower and uppercase letters
+    //seventh test, testing capital letter with lower case letters
     @Test
     public void detectCapitalUseTest_LowerAndUppercase_ReturnsTrue() {
         myString.setString("Testing");
