@@ -53,5 +53,16 @@ public class CILabTest {
 
     }
 
+    //fourth test
+    @Test
+    public void detectCapitalUseTest_AllLower_ReturnsFalse() {
+        myString.setString("a");
+
+        boolean actual = myString.detectCapitalUse();
+
+        assertFalse(actual);
+
+    }
+
 
 }
